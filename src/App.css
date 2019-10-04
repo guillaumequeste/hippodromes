@@ -1,22 +1,211 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+
+/* Header */
+
+.bodyHeader {
+    height: 10vh;
+    background-color: #2C3E50;
+    display: flex;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.link {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* Contact */
+
+.bodyContact {
+    min-height: 90vh;
+    background-color: #948c81;
+    display: flex;
 }
 
-.App-link {
-  color: #09d3ac;
+.contact {
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 0.8em;
+    }
+}
+
+
+/* App */
+
+.bodyApp {
+    background-color: #948c81;
+    height: 90vh;
+}
+
+
+/* Carte */
+
+.bodyMap {
+    background-color: #948c81;
+    height: 90vh;
+    display: flex;
+}
+
+.map {
+    margin: auto;
+}
+
+.titreCarte {
+    font-family: 'Oleo Script', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.linkHippodrome {
+    text-decoration: none;
+    display: flex;
+}
+
+.lien {
+    flex-direction: column;
+}
+
+.apercu {
+    width: 50px;
+}
+
+
+/* NotFound */
+
+.bodyNotFound {
+    background-color: #948c81;
+    height: 90vh;
+    display: flex;
+}
+
+.titreNotFound {
+    margin: auto;
+}
+
+
+/* Hippodromes */
+
+.fiche {
+    background-color: #948c81;
+    display: flex;
+    height: 95vh;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    .fiche {
+        flex-direction: column;
+    }
+}
+
+.image {
+    width: 50vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tailleImage {
+    width: 50vw;
+    height: 60vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .tailleImage {
+        width: 90vw;
+        height: 45vh;
+    }
+}
+
+.description {
+    margin: auto;
+    margin-top: 0;
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 1000px) {
+    .description {
+        margin-top: 0;
+        margin-left: 5%;
+    }
+}
+
+.titreCard {
+    text-align: center;
+    font-family: 'Oleo Script', sans-serif;
+    color: rgb(27, 32, 37);
+    font-size: 3em;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.long {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .titreCard {
+        padding-left: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+.liCard {
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .liCard {
+        margin-bottom: 0;
+    }
+}
+
+.plusDePhotos {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #948c81;
+}
+
+@media screen and (max-width: 1000px) {
+    .plusDePhotos {
+        flex-direction: column;
+    }
+}
+
+.tailleImagePlus {
+    width: 40vw;
+    height: 45vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .tailleImagePlus {
+        width: 85vw;
+        height: 60vh;
+        padding: 5%;
+    }
+}
+
+.photoLarge {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #948c81;
+}
+
+.imageLarge {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tailleImageLarge {
+    width: 90vw;
+    height: 70vh;
 }
