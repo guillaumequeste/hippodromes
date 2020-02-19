@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Abbeville from './components/Abbeville'
 import Amiens from './components/Amiens'
 import Angers from './components/Angers'
@@ -110,8 +110,8 @@ const Root = () => (
             <Route path='/strasbourg' component={Strasbourg}/>
             <Route path='/vincennes' component={Vincennes}/>
             <Route path='/vire' component={Vire}/>
-
-            <Route component={NotFound} />
+            <Route path="/notfound" component={NotFound} />
+            <Redirect to="/notfound"/>
         </Switch>
     </Router>
 )
