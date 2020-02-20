@@ -113,13 +113,13 @@
 
 .tailleImage {
     width: 50vw;
-    height: 60vh;
+    height: 65vh;
 }
 
 @media screen and (max-width: 1000px) {
     .tailleImage {
         width: 90vw;
-        height: 45vh;
+        height: 35vh;
     }
 }
 
@@ -183,13 +183,13 @@
 
 .tailleImagePlus {
     width: 40vw;
-    height: 45vh;
+    height: 50vh;
 }
 
 @media screen and (max-width: 1000px) {
     .tailleImagePlus {
         width: 85vw;
-        height: 60vh;
+        height: 35vh;
         padding: 5%;
     }
 }
