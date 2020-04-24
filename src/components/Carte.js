@@ -70,7 +70,7 @@ export default class Carte extends Component {
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
                         <Marker position={abbeville}>
-                            <Popup>
+                            <Popup minWidth={200}>
                                 <Link to="/abbeville" className="linkHippodrome"><div className="lien"><div>Abbeville</div><div><img src={require('../img/abbeville/abbevillemini.jpg')} alt="abbeville" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
