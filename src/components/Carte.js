@@ -36,6 +36,7 @@ export default class Carte extends Component {
         const gournay_en_bray = [49.50269418157618, 1.669992652499559]
         const graignes = [49.24099402100886, -1.2082318585732992]
         const la_capelle = [49.96745788709066, 3.9210740150385845]
+        const la_ferte_vidame = [48.62214998449914, 0.8945448696612912]
         const laval = [48.03654876550867, -0.79427457057011]
         const le_croise_laroche = [50.66740342836, 3.0933489234778335]
         const le_lion_d_angers = [47.627642154779075, -0.7068720211182153]
@@ -63,7 +64,7 @@ export default class Carte extends Component {
         return (
             <div className="bodyMap">
                 <div className="map">
-                    <h1 className="titreCarte">50 hippodromes visités</h1>
+                    <h1 className="titreCarte">51 hippodromes visités</h1>
                     <Map center={position} zoom={this.state.zoom}>
                         <TileLayer
                             attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
@@ -192,6 +193,11 @@ export default class Carte extends Component {
                         <Marker position={la_capelle}>
                             <Popup>
                                 <Link to="/la_capelle" className="linkHippodrome"><div className="lien"><div>La Capelle</div><div><img src={require('../img/la_capelle/la_capellemini.jpg')} alt="la_capelle" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={la_ferte_vidame}>
+                            <Popup>
+                                <Link to="/la_ferte-vidame" className="linkHippodrome"><div className="lien"><div>La Ferté-Vidame</div><div><img src={require('../img/la_ferte-vidame/la_ferte-vidame01min.jpg')} alt="la_ferte-vidame" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                         <Marker position={laval}>

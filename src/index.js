@@ -30,6 +30,7 @@ import Fontainebleau from './components/Fontainebleau'
 import Gournay_en_Bray from './components/Gournay_en_Bray'
 import Graignes from './components/Graignes'
 import La_Capelle from './components/La_Capelle'
+import La_Ferte_Vidame from './components/La_Ferte_Vidame'
 import Laval from './components/Laval'
 import Le_Croise_Laroche from './components/Le_Croise_Laroche'
 import Le_Lion_d_Angers from './components/Le_Lion_d_Angers'
@@ -86,6 +87,7 @@ const Root = () => (
             <Route path='/gournay_en_bray' component={Gournay_en_Bray}/>
             <Route path='/graignes' component={Graignes}/>
             <Route path='/la_capelle' component={La_Capelle}/>
+            <Route path='/la_ferte-vidame' component={La_Ferte_Vidame}/>
             <Route path='/laval' component={Laval}/>
             <Route path='/le_croise_laroche' component={Le_Croise_Laroche}/>
             <Route path='/le_lion_d_angers' component={Le_Lion_d_Angers}/>
