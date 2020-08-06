@@ -90,7 +90,7 @@
 }
 
 
-/* Hippodromes */
+/* Hippodrome détail */
 
 .fiche {
     background-color: #948c81;
@@ -127,6 +127,9 @@
     margin: auto;
     margin-top: 0;
     padding-left: 2%;
+    padding-right: 2%;
+    background-color: #c4c4c4;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1000px) {

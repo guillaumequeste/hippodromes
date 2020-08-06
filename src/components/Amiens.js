@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Zoom from 'react-reveal/Zoom'
+import Roll from 'react-reveal/Roll'
 
 class Amiens extends Component {
     constructor(props) {
@@ -31,43 +33,57 @@ class Amiens extends Component {
                     <div className="image">
                         <img src={requireImage(this.state.image)} alt={this.state.nom} className="tailleImage"/>
                     </div>
-                    <div className="description">
-                        <h2 className="titreCard">{this.state.nom}</h2>
-                        <ul>
-                            <li className="liCard"><strong>Piste : </strong>{this.state.piste}</li>
-                            <li className="liCard"><strong>Corde : </strong>{this.state.corde}</li>
-                            <li className="liCard"><strong>Circonference : </strong>{this.state.circonference}</li>
-                            <li className="liCard"><strong>Région : </strong>{this.state.region}</li>
-                            <li className="liCard"><strong>Département : </strong>{this.state.departement}</li>
-                            <li className="liCard"><strong>Ville à proximité : </strong>{this.state.ville}</li>
-                            <li className="liCard"><strong>Surnom : </strong>{this.state.surnom}</li>
-                            <li className="liCard"><i>&darr; + de photos &darr;</i></li>
-                        </ul>
-                    </div>
+                    <Roll right>
+                        <div className="description">
+                            <h2 className="titreCard">{this.state.nom}</h2>
+                            <ul>
+                                <li className="liCard"><strong>Piste : </strong>{this.state.piste}</li>
+                                <li className="liCard"><strong>Corde : </strong>{this.state.corde}</li>
+                                <li className="liCard"><strong>Circonference : </strong>{this.state.circonference}</li>
+                                <li className="liCard"><strong>Région : </strong>{this.state.region}</li>
+                                <li className="liCard"><strong>Département : </strong>{this.state.departement}</li>
+                                <li className="liCard"><strong>Ville à proximité : </strong>{this.state.ville}</li>
+                                <li className="liCard"><strong>Surnom : </strong>{this.state.surnom}</li>
+                                <li className="liCard"><i>&darr; + de photos &darr;</i></li>
+                            </ul>
+                        </div>
+                    </Roll>
                 </div>
                 <div className="plusDePhotos">
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens2.jpg')} alt='amiens2' className="tailleImagePlus"/>
-                    </div>
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens3.jpg')} alt='amiens3' className="tailleImagePlus"/>
-                    </div>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens2.jpg')} alt='amiens2' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens3.jpg')} alt='amiens3' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
                 </div>
                 <div className="plusDePhotos">
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens4.jpg')} alt='amiens4' className="tailleImagePlus"/>
-                    </div>
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens5.jpg')} alt='amiens5' className="tailleImagePlus"/>
-                    </div>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens4.jpg')} alt='amiens4' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens5.jpg')} alt='amiens5' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
                 </div>
                 <div className="plusDePhotos">
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens6.jpg')} alt='amiens6' className="tailleImagePlus"/>
-                    </div>
-                    <div className="image">
-                        <img src={require('../img/amiens/amiens7.jpg')} alt='amiens7' className="tailleImagePlus"/>
-                    </div>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens6.jpg')} alt='amiens6' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/amiens/amiens7.jpg')} alt='amiens7' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
                 </div>
             </div>
         )
