@@ -30,7 +30,7 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     h1 {
         font-size: 0.8em;
     }
@@ -99,7 +99,7 @@
     padding-top: 3%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .fiche {
         flex-direction: column;
     }
@@ -108,15 +108,15 @@
 .image {
     width: 50vw;
     padding-left: 5%;
-    padding-right: 5%;
 }
 
 .tailleImage {
     width: 50vw;
     height: 65vh;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .tailleImage {
         width: 90vw;
         height: 35vh;
@@ -129,13 +129,17 @@
     padding-left: 2%;
     padding-right: 2%;
     background-color: #c4c4c4;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 25vw;
+    height: 65vh;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .description {
         margin-top: 0;
         margin-left: 5%;
+        width: 85vw;
+        height: 45vh;
     }
 }
 
@@ -152,7 +156,7 @@
     font-size: 2em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .titreCard {
         padding-left: 5%;
         margin-bottom: 0;
@@ -165,7 +169,7 @@
     list-style: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .liCard {
         margin-bottom: 0;
     }
@@ -178,7 +182,7 @@
     background-color: #948c81;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .plusDePhotos {
         flex-direction: column;
     }
@@ -187,9 +191,10 @@
 .tailleImagePlus {
     width: 40vw;
     height: 50vh;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
     .tailleImagePlus {
         width: 85vw;
         height: 35vh;
