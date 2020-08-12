@@ -64,7 +64,7 @@ export default class Carte extends Component {
         return (
             <div className="bodyMap">
                 <div className="map">
-                    <h1 className="titreCarte">51 hippodromes visités</h1>
+                    <h1 className="titreCarte">50 hippodromes visités</h1>
                     <Map center={position} zoom={this.state.zoom}>
                         <TileLayer
                             attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"

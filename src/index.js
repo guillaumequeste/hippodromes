@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import $ from 'jquery'
+import Popper from 'popper.js'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Abbeville from './components/Abbeville'
 import Amiens from './components/Amiens'
@@ -38,6 +42,7 @@ import Le_Mont_Saint_Michel from './components/Le_Mont_Saint_Michel'
 import Le_Neubourg from './components/Le_Neubourg'
 import Le_Touquet from './components/Le_Touquet'
 import Lisieux from './components/Lisieux'
+import Liste from './components/Liste'
 import Longchamp from './components/Longchamp'
 import Maisons_Laffitte from './components/Maisons_Laffitte'
 import Mauquenchy from './components/Mauquenchy'
@@ -62,6 +67,7 @@ const Root = () => (
         <Switch>
             <Route exact path='/' component={App}/>
             <Route exact path='/contact' component={Contact}/>
+            <Route exact path='/liste' component={Liste}/>
             <Route path='/abbeville' component={Abbeville}/>
             <Route path='/amiens' component={Amiens}/>
             <Route path='/angers' component={Angers}/>

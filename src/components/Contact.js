@@ -9,8 +9,8 @@ class Contact extends Component {
                 <Header />
                 <div className="bodyContact">
                     <div className="contact">
-                        <h1>guillaume.queste@laposte.net</h1>
-                        <h1>http://www.guillaumequeste.fr</h1>
+                        <p>guillaume.queste@laposte.net</p>
+                        <p>http://www.guillaumequeste.fr</p>
                     </div>
                 </div>
             </div>

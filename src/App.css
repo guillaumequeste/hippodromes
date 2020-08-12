@@ -1,27 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
 
-/* Header */
+/* App */
 
-.bodyHeader {
-    height: 10vh;
-    background-color: #2C3E50;
-    display: flex;
-    align-items: center;
+.bodyApp {
+    background-color: #948c81;
+    height: 100%;
 }
 
-.link {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+
+/* Header */
+
+.navbar {
+    height: 7vh;
+    z-index: 100 !important;
+    background-color: #2C3E50;
+}
+
+.nav-link {
+    background-color: #f8f9fa;
+    z-index: 100 !important;
+}
+
+.navbar-brand {
+    color: white !important;
     font-family: 'Oleo Script', sans-serif;
-    font-size: 35px;
+}
+
+.nav-link {
+    background-color: #2C3E50;
+    color: white !important;
+    font-family: 'Oleo Script', sans-serif;
 }
 
 
 /* Contact */
 
 .bodyContact {
-    min-height: 90vh;
+    min-height: 93vh;
     background-color: #948c81;
     display: flex;
 }
@@ -30,18 +45,29 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1030px) {
-    h1 {
-        font-size: 0.8em;
-    }
+
+/* Liste */
+
+.bodyListe {
+    min-height: 93vh;
+    background-color: #948c81;
+    display: flex;
 }
 
+.liste {
+    width: 100vw;
+    padding-top: 2%;
+    text-align: center;
+}
 
-/* App */
+.linkListe {
+    color: black;
+    font-size: 1.5em;
+}
 
-.bodyApp {
-    background-color: #948c81;
-    height: 90vh;
+.linkListe:hover {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -49,7 +75,7 @@
 
 .bodyMap {
     background-color: #948c81;
-    height: 90vh;
+    height: 93vh;
     display: flex;
 }
 
@@ -81,7 +107,7 @@
 
 .bodyNotFound {
     background-color: #948c81;
-    height: 90vh;
+    height: 93vh;
     display: flex;
 }
 
@@ -131,7 +157,7 @@
     background-color: #c4c4c4;
     border-radius: 10px;
     width: 25vw;
-    height: 65vh;
+    height: 80vh;
 }
 
 @media screen and (max-width: 1030px) {
