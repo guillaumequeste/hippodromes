@@ -21,7 +21,7 @@ class Deauville extends Component {
     render () {
         const requireImage = () => {
             try {
-                return require('../img/deauville/deauville.jpg')
+                return require('../img/deauville/deauville01.jpg')
             } catch (err) {
                 return require('../img/paint.jpg')
             }
@@ -52,12 +52,127 @@ class Deauville extends Component {
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/deauville/deauville2.jpg')} alt='deauville2' className="tailleImagePlus"/>
+                            <img src={require('../img/deauville/deauville02.jpg')} alt='deauville02' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/deauville/deauville3.jpg')} alt='deauville3' className="tailleImagePlus"/>
+                            <img src={require('../img/deauville/deauville03.jpg')} alt='deauville03' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville04.jpg')} alt='deauville04' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville05.jpg')} alt='deauville05' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville06.jpg')} alt='deauville06' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville07.jpg')} alt='deauville07' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville08.jpg')} alt='deauville08' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville09.jpg')} alt='deauville09' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville10.jpg')} alt='deauville10' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville11.jpg')} alt='deauville11' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville12.jpg')} alt='deauville12' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville13.jpg')} alt='deauville13' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville14.jpg')} alt='deauville14' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville15.jpg')} alt='deauville15' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville16.jpg')} alt='deauville16' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville17.jpg')} alt='deauville17' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville18.jpg')} alt='deauville18' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville19.jpg')} alt='deauville19' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville20.jpg')} alt='deauville20' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville21.jpg')} alt='deauville21' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/deauville/deauville22.jpg')} alt='deauville22' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>

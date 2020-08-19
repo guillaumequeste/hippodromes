@@ -152,7 +152,7 @@ export default class Carte extends Component {
                         </Marker>
                         <Marker position={deauville}>
                             <Popup>
-                                <Link to="/deauville" className="linkHippodrome"><div className="lien"><div>Deauville</div><div><img src={require('../img/deauville/deauvillemini.jpg')} alt="deauville" className="apercu"/></div></div></Link>
+                                <Link to="/deauville" className="linkHippodrome"><div className="lien"><div>Deauville</div><div><img src={require('../img/deauville/deauville01min.jpg')} alt="deauville" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                         <Marker position={dieppe}>
