@@ -14,6 +14,7 @@ class Liste extends Component {
                         <p><Link to="/Amiens" className="linkListe">Amiens</Link></p>
                         <p><Link to="/Angers" className="linkListe">Angers</Link></p>
                         <p><Link to="/Argentan" className="linkListe">Argentan</Link></p>
+                        <p><Link to="/Arras" className="linkListe">Arras</Link></p>
                         <p><Link to="/Auteuil" className="linkListe">Auteuil</Link></p>
                         <p><Link to="/Bacqueville_en_Caux" className="linkListe">Bacqueville en Caux</Link></p>
                         <p><Link to="/Bernay" className="linkListe">Bernay</Link></p>

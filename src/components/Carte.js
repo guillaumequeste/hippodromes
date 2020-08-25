@@ -15,6 +15,7 @@ export default class Carte extends Component {
         const amiens = [49.893904380381564, 2.2694657325744174]
         const angers = [47.4944796, -0.5072976]
         const argentan = [48.75395, 0.0014978]
+        const arras = [50.29358383886521, 2.737261885372093]
         const auteuil = [48.85357949565165, 2.2576086105700597]
         const bacqueville = [49.789944562691666, 1.0040160319636016]
         const bernay = [49.082567, 0.6087611]
@@ -64,7 +65,7 @@ export default class Carte extends Component {
         return (
             <div className="bodyMap">
                 <div className="map">
-                    <h1 className="titreCarte">50 hippodromes visités</h1>
+                    <h1 className="titreCarte">51 hippodromes visités</h1>
                     <Map center={position} zoom={this.state.zoom}>
                         <TileLayer
                             attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
@@ -88,6 +89,11 @@ export default class Carte extends Component {
                         <Marker position={argentan}>
                             <Popup>
                                 <Link to="/argentan" className="linkHippodrome"><div className="lien"><div>Argentan</div><div><img src={require('../img/argentan/argentanmini.jpg')} alt="argentan" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={arras}>
+                            <Popup>
+                                <Link to="/arras" className="linkHippodrome"><div className="lien"><div>Arras</div><div><img src={require('../img/arras/arras01min.jpg')} alt="arras" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                         <Marker position={auteuil}>
@@ -232,7 +238,7 @@ export default class Carte extends Component {
                         </Marker>
                         <Marker position={lisieux}>
                             <Popup>
-                                <Link to="/lisieux" className="linkHippodrome"><div className="lien"><div>Lisieux</div><div><img src={require('../img/lisieux/lisieuxmini.jpg')} alt="lisieux" className="apercu"/></div></div></Link>
+                                <Link to="/lisieux" className="linkHippodrome"><div className="lien"><div>Lisieux</div><div><img src={require('../img/lisieux/lisieux01min.jpg')} alt="lisieux" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                         <Marker position={longchamp}>

@@ -3,25 +3,25 @@ import Header from './Header'
 import Zoom from 'react-reveal/Zoom'
 import Roll from 'react-reveal/Roll'
 
-class Lisieux extends Component {
+class Arras extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            nom: 'Lisieux',
-            image: 'lisieux.jpg',
-            piste: 'herbe et sable',
+            nom: 'Arras',
+            image: 'arras01.jpg',
+            piste: 'herbe',
             corde: 'droite',
-            circonference: '1 520 m',
-            region: 'Basse-Normandie',
-            departement: 'Calvados',
-            ville: 'Lisieux',
-            surnom: "hippodrome de la Trésorerie"
+            circonference: '1 050 m',
+            region: 'Hauts-de-France',
+            departement: 'Pas-de-Calais',
+            ville: 'Arras',
+            surnom: "hippodrome des Hauts-Blancs-Monts"
         }
       }
     render () {
         const requireImage = () => {
             try {
-                return require('../img/lisieux/lisieux01.jpg')
+                return require('../img/arras/arras01.jpg')
             } catch (err) {
                 return require('../img/paint.jpg')
             }
@@ -52,103 +52,127 @@ class Lisieux extends Component {
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux02.jpg')} alt='lisieux02' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras02.jpg')} alt='arras02' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux03.jpg')} alt='lisieux03' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                </div>
-                <div className="plusDePhotos">
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux04.jpg')} alt='lisieux04' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux05.jpg')} alt='lisieux05' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras03.jpg')} alt='arras03' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux06.jpg')} alt='lisieux06' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras04.jpg')} alt='arras04' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux07.jpg')} alt='lisieux07' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                </div>
-                <div className="plusDePhotos">
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux08.jpg')} alt='lisieux08' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux09.jpg')} alt='lisieux09' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras05.jpg')} alt='arras05' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux10.jpg')} alt='lisieux10' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras06.jpg')} alt='arras06' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux11.jpg')} alt='lisieux11' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                </div>
-                <div className="plusDePhotos">
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux12.jpg')} alt='lisieux12' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux13.jpg')} alt='lisieux13' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras07.jpg')} alt='arras07' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux14.jpg')} alt='lisieux14' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras08.jpg')} alt='arras08' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux15.jpg')} alt='lisieux15' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                </div>
-                <div className="plusDePhotos">
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux16.jpg')} alt='lisieux16' className="tailleImagePlus"/>
-                        </div>
-                    </Zoom>
-                    <Zoom>
-                        <div className="image">
-                            <img src={require('../img/lisieux/lisieux17.jpg')} alt='lisieux17' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras09.jpg')} alt='arras09' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>
                 <div className="plusDePhotos">
                     <Zoom>
                         <div className="image">
-                            <img src={require('../img/lisieux/lisieux18.jpg')} alt='lisieux18' className="tailleImagePlus"/>
+                            <img src={require('../img/arras/arras10.jpg')} alt='arras10' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras11.jpg')} alt='arras11' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras12.jpg')} alt='arras12' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras13.jpg')} alt='arras13' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras14.jpg')} alt='arras14' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras15.jpg')} alt='arras15' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras16.jpg')} alt='arras16' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras17.jpg')} alt='arras17' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras18.jpg')} alt='arras18' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras19.jpg')} alt='arras19' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras20.jpg')} alt='arras20' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras21.jpg')} alt='arras21' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/arras/arras22.jpg')} alt='arras22' className="tailleImagePlus"/>
                         </div>
                     </Zoom>
                 </div>
@@ -157,4 +181,4 @@ class Lisieux extends Component {
     }
 }
 
-export default Lisieux
+export default Arras

@@ -12,6 +12,7 @@ import Abbeville from './components/Abbeville'
 import Amiens from './components/Amiens'
 import Angers from './components/Angers'
 import Argentan from './components/Argentan'
+import Arras from './components/Arras'
 import Auteuil from './components/Auteuil'
 import Bacqueville_en_Caux from './components/Bacqueville_en_Caux'
 import Bernay from './components/Bernay'
@@ -72,6 +73,7 @@ const Root = () => (
             <Route path='/amiens' component={Amiens}/>
             <Route path='/angers' component={Angers}/>
             <Route path='/argentan' component={Argentan}/>
+            <Route path='/arras' component={Arras}/>
             <Route path='/auteuil' component={Auteuil}/>
             <Route path='/bacqueville_en_caux' component={Bacqueville_en_Caux}/>
             <Route path='/bernay' component={Bernay}/>
