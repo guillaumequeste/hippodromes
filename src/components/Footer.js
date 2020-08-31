@@ -18,7 +18,7 @@ class Footer extends Component {
                 </div>
                 <div className="divFooter">
                     <Link to="/contact" className="divFooter2">
-                        Ccontact
+                        Contact
                     </Link>
                 </div>
             </div>
