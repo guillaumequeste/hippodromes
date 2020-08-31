@@ -4,6 +4,7 @@ import './App.css';
 import 'leaflet/dist/leaflet.css';
 import Carte from './components/Carte'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Zoom from 'react-reveal/Zoom'
 
 Leaflet.Icon.Default.imagePath =
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <div className="bodyApp">
         <Header />
+        <Footer />
         <Zoom bottom>
           <Carte />
         </Zoom>

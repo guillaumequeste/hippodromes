@@ -13,10 +13,10 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/contact">Contact</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/liste">Liste</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/liste">Liste</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
                     </div>

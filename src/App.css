@@ -10,6 +10,16 @@
 
 /* Header */
 
+.bodyHeader {
+    display: none;
+}
+
+@media screen and (min-width: 1030px) {
+    .bodyHeader {
+        display: block;
+    }
+}
+
 .navbar {
     height: 7vh;
     z-index: 100 !important;
@@ -30,6 +40,34 @@
     background-color: #2C3E50;
     color: white !important;
     font-family: 'Oleo Script', sans-serif;
+}
+
+
+/* Footer */
+
+.bodyFooter {
+    display: block;
+    height: 7vh;
+    background-color: #2C3E50;
+    display: flex;
+}
+
+@media screen and (min-width: 1030px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
+.divFooter {
+    color: white;
+    font-family: 'Oleo Script', sans-serif;
+    width: calc(100vw/3);
+    display: flex;
+}
+
+.divFooter2 {
+    margin: auto;
+    color: white;
 }
 
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 class Liste extends Component {
@@ -8,6 +9,7 @@ class Liste extends Component {
         return (
             <div>
                 <Header />
+                <Footer />
                 <div className="bodyListe">
                     <div className="liste">
                         <p><Link to="/Abbeville" className="linkListe">Abbeville</Link></p>

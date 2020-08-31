@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import Zoom from 'react-reveal/Zoom'
 import Roll from 'react-reveal/Roll'
 
@@ -30,6 +31,7 @@ class Le_Mont_Saint_Michel extends Component {
         return (
             <div>
                 <Header />
+                <Footer />
                 <div className="fiche">
                     <div className="image">
                         <img src={requireImage(this.state.image)} alt={this.state.nom} className="tailleImage"/>
