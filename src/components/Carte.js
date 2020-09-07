@@ -43,6 +43,7 @@ export default class Carte extends Component {
         const le_lion_d_angers = [47.627642154779075, -0.7068720211182153]
         const le_mont_saint_michel = [48.58435089492097, -1.5140505370483197]
         const le_neubourg = [49.137763376553714, 0.9030580304107616]
+        const les_andelys = [49.22882191348012, 1.3766622735461054]
         const le_touquet = [50.52455181672819, 1.6080518874526888]
         const lisieux = [49.15063276625466, 0.27103529970133877]
         const longchamp = [48.85996009473326, 2.234109026859869]
@@ -52,6 +53,7 @@ export default class Carte extends Component {
         const meslay_du_maine = [47.95002087997146, -0.5331800724213736]
         const mons = [50.48137807649974, 3.925027224786845]
         const nantes = [47.2467314, -1.5667671]
+        const rambouillet = [48.63768294022566, 1.854044368875729]
         const ranes = [48.64199474697866, -0.2168726719970664]
         const reims = [49.23425248548578, 4.011013589935374]
         const saint_aubin_les_elbeuf = [49.30849696355618, 1.020071769866945]
@@ -65,7 +67,7 @@ export default class Carte extends Component {
         return (
             <div className="bodyMap">
                 <div className="map">
-                    <h1 className="titreCarte">51 hippodromes visités</h1>
+                    <h1 className="titreCarte">53 hippodromes visités</h1>
                     <Map center={position} zoom={this.state.zoom}>
                         <TileLayer
                             attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
@@ -231,6 +233,11 @@ export default class Carte extends Component {
                                 <Link to="/le_neubourg" className="linkHippodrome"><div className="lien"><div>Le Neubourg</div><div><img src={require('../img/le_neubourg/le_neubourgmini.jpg')} alt="le_neubourg" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
+                        <Marker position={les_andelys}>
+                            <Popup>
+                                <Link to="/les_andelys" className="linkHippodrome"><div className="lien"><div>Les Andelys</div><div><img src={require('../img/les_andelys/les_andelys01min.jpg')} alt="les_andelys" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
                         <Marker position={le_touquet}>
                             <Popup>
                                 <Link to="/le_touquet" className="linkHippodrome"><div className="lien"><div>Le Touquet</div><div><img src={require('../img/le_touquet/le_touquetmini.jpg')} alt="le_touquet" className="apercu"/></div></div></Link>
@@ -274,6 +281,11 @@ export default class Carte extends Component {
                         <Marker position={nantes}>
                             <Popup>
                                 <Link to="/nantes" className="linkHippodrome"><div className="lien"><div>Nantes</div><div><img src={require('../img/nantes/nantesmini.jpg')} alt="nantes" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={rambouillet}>
+                            <Popup>
+                                <Link to="/rambouillet" className="linkHippodrome"><div className="lien"><div>Rambouillet</div><div><img src={require('../img/rambouillet/rambouillet01min.jpg')} alt="rambouillet" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                         <Marker position={ranes}>

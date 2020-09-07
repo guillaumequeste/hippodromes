@@ -41,6 +41,7 @@ import Le_Croise_Laroche from './components/Le_Croise_Laroche'
 import Le_Lion_d_Angers from './components/Le_Lion_d_Angers'
 import Le_Mont_Saint_Michel from './components/Le_Mont_Saint_Michel'
 import Le_Neubourg from './components/Le_Neubourg'
+import Les_Andelys from './components/Les_Andelys'
 import Le_Touquet from './components/Le_Touquet'
 import Lisieux from './components/Lisieux'
 import Liste from './components/Liste'
@@ -52,6 +53,7 @@ import Meslay_du_Maine from './components/Meslay_du_Maine'
 import Mons from './components/Mons'
 import Nantes from './components/Nantes'
 import NotFound from './components/NotFound'
+import Rambouillet from './components/Rambouillet'
 import Ranes from './components/Ranes'
 import Reims from './components/Reims'
 import Saint_Aubin_les_Elbeuf from './components/Saint_Aubin_les_Elbeuf'
@@ -101,6 +103,7 @@ const Root = () => (
             <Route path='/le_lion_d_angers' component={Le_Lion_d_Angers}/>
             <Route path='/le_mont_saint_michel' component={Le_Mont_Saint_Michel}/>
             <Route path='/le_neubourg' component={Le_Neubourg}/>
+            <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/le_touquet' component={Le_Touquet}/>
             <Route path='/lisieux' component={Lisieux}/>
             <Route path='/longchamp' component={Longchamp}/>
@@ -110,6 +113,7 @@ const Root = () => (
             <Route path='/meslay_du_maine' component={Meslay_du_Maine}/>
             <Route path='/mons' component={Mons}/>
             <Route path='/nantes' component={Nantes}/>
+            <Route path='/rambouillet' component={Rambouillet}/>
             <Route path='/ranes' component={Ranes}/>
             <Route path='/reims' component={Reims}/>
             <Route path='/saint_aubin_les_elbeuf' component={Saint_Aubin_les_Elbeuf}/>
