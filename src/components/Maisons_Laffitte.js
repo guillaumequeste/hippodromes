@@ -63,6 +63,78 @@ class Maisons_Laffitte extends Component {
                         </div>
                     </Zoom>
                 </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte4.jpg')} alt='maisons_laffitte4' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte5.jpg')} alt='maisons_laffitte5' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte6.jpg')} alt='maisons_laffitte6' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte7.jpg')} alt='maisons_laffitte7' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte8.jpg')} alt='maisons_laffitte8' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte9.jpg')} alt='maisons_laffitte9' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte10.jpg')} alt='maisons_laffitte10' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte11.jpg')} alt='maisons_laffitte11' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte12.jpg')} alt='maisons_laffitte12' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte13.jpg')} alt='maisons_laffitte13' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="plusDePhotos">
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte14.jpg')} alt='maisons_laffitte14' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                    <Zoom>
+                        <div className="image">
+                            <img src={require('../img/maisons_laffitte/maisons_laffitte15.jpg')} alt='maisons_laffitte15' className="tailleImagePlus"/>
+                        </div>
+                    </Zoom>
+                </div>
             </div>
         )
     }
