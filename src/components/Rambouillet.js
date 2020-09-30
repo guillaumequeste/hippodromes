@@ -15,7 +15,7 @@ class Rambouillet extends Component {
             circonference: '1 800 m',
             region: 'Ile-de-France',
             departement: 'Yvelines',
-            ville: 'Arras',
+            ville: 'Rambouillet',
             surnom: "hippodrome de la Villeneuve"
         }
       }
