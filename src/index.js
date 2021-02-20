@@ -64,9 +64,11 @@ import Saint_Pierre_sur_Dives from './components/Saint_Pierre_sur_Dives'
 import Strasbourg from './components/Strasbourg'
 import Vincennes from './components/Vincennes'
 import Vire from './components/Vire'
+import ScrollToTop from './components/ScrollToTop'
 
 const Root = () => (
     <Router>
+        <ScrollToTop />
         <Switch>
             <Route exact path='/' component={App}/>
             <Route exact path='/contact' component={Contact}/>
